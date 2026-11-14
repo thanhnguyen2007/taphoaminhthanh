@@ -1,0 +1,399 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>DANH SÁCH TỆP TIN & BỘ PROMPT ĐỒ ÁN QUẢN LÝ KHO</title>
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>100</w:Zoom>
+<w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+@page {
+    size: 21.0cm 29.7cm; /* A4 */
+    margin: 2.0cm 2.0cm 2.0cm 2.0cm;
+    mso-page-orientation: portrait;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    line-height: 1.5;
+    color: #1a202c;
+}
+h1.title-main {
+    font-family: 'Arial', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #1a365d;
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+    text-transform: uppercase;
+}
+p.sub-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 13pt;
+    color: #4a5568;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20pt;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    color: #2b6cb0;
+    border-bottom: 2pt solid #2b6cb0;
+    padding-bottom: 4pt;
+    margin-top: 25pt;
+    margin-bottom: 12pt;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 13pt;
+    font-weight: bold;
+    color: #2d3748;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 8pt;
+    text-align: justify;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10pt;
+    margin-bottom: 16pt;
+    font-size: 11.5pt;
+}
+th {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8pt 6pt;
+    border: 1pt solid #a0aec0;
+    text-align: center;
+}
+td {
+    padding: 6pt 6pt;
+    border: 1pt solid #cbd5e0;
+    vertical-align: top;
+}
+tr.even td {
+    background-color: #f7fafc;
+}
+.prompt-box {
+    background-color: #f8fafc;
+    border-left: 4pt solid #3182ce;
+    border-top: 1pt solid #e2e8f0;
+    border-right: 1pt solid #e2e8f0;
+    border-bottom: 1pt solid #e2e8f0;
+    padding: 10pt 12pt;
+    margin: 10pt 0 15pt 0;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 11pt;
+    line-height: 1.45;
+    color: #1a202c;
+    white-space: pre-wrap;
+}
+.info-box {
+    background-color: #ebf8ff;
+    border: 1pt solid #bee3f8;
+    border-left: 4pt solid #3182ce;
+    padding: 10pt 12pt;
+    margin-bottom: 15pt;
+}
+.alert-box {
+    background-color: #fffaf0;
+    border: 1pt solid #feebc8;
+    border-left: 4pt solid #dd6b20;
+    padding: 10pt 12pt;
+    margin-bottom: 15pt;
+}
+.file-name {
+    font-family: 'Consolas', monospace;
+    font-weight: bold;
+    color: #2b6cb0;
+}
+.footer-note {
+    font-size: 10pt;
+    color: #718096;
+    text-align: center;
+    border-top: 1pt solid #e2e8f0;
+    padding-top: 12pt;
+    margin-top: 30pt;
+}
+</style>
+</head>
+<body>
+
+<!-- TIÊU ĐỀ BÁO CÁO -->
+<h1 class="title-main">TÀI LIỆU HỆ THỐNG QUẢN LÝ KHO & ĐƠN HÀNG</h1>
+<p class="sub-title">(Inventory & Order Management System for Small Retail Shops)</p>
+
+<div class="info-box">
+    <p style="margin-bottom: 4pt;"><strong>Học phần / Đồ án:</strong> Lập trình Web PHP & MySQL</p>
+    <p style="margin-bottom: 4pt;"><strong>Vị trí thư mục dự án:</strong> <code>c:\xampp\htdocs\doan5\</code></p>
+    <p style="margin-bottom: 4pt;"><strong>Công nghệ nền tảng:</strong> PHP 8.x, MySQL (PDO), Bootstrap 5.3, Chart.js, VietQR API</p>
+    <p style="margin-bottom: 0;"><strong>Thời gian hoàn thành:</strong> Tháng 11/2026</p>
+</div>
+
+<!-- MỤC 1: DANH SÁCH CÁC TỆP TIN -->
+<h2>PHẦN 1: 📋 DANH SÁCH CÁC TỆP TIN ĐÃ TẠO TRONG THƯ MỤC</h2>
+<p>
+    Toàn bộ hệ thống website đã được xây dựng hoàn chỉnh, tuân thủ mô hình module hóa gọn gàng, bảo mật dữ liệu với PDO và có cấu trúc các file trong thư mục <strong><code>c:\xampp\htdocs\doan5\</code></strong> như sau:
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 5%;">STT</th>
+            <th style="width: 25%;">Tên Tệp Tin</th>
+            <th style="width: 70%;">Mô Tả Vai Trò & Chức Năng Chi Tiết</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">1</td>
+            <td><span class="file-name">database.sql</span></td>
+            <td>
+                <strong>Cơ sở dữ liệu quan hệ hoàn chỉnh:</strong> Khởi tạo database <code>inventory_shop</code> gồm 7 bảng: <code>users</code>, <code>suppliers</code>, <code>products</code>, <code>import_receipts</code>, <code>import_details</code>, <code>orders</code>, <code>order_details</code>. Kèm sẵn toàn bộ dữ liệu mẫu (Admin, Staff, Khách hàng, Sản phẩm, Nhà cung cấp, Phiếu nhập kho, Đơn hàng) để khi import là chạy có biểu đồ ngay.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">2</td>
+            <td><span class="file-name">db.php</span></td>
+            <td>
+                <strong>Kết nối CSDL & Cấu hình hệ thống:</strong> Kết nối MySQL an toàn bằng <code>PDO</code> với chuẩn mã hóa UTF-8 (utf8mb4), cấu hình thông số ngân hàng tạo mã VietQR (MBBank), thông tin Shop và hàm khử khuẩn mã độc XSS <code>e()</code>.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">3</td>
+            <td><span class="file-name">auth_check.php</span></td>
+            <td>
+                <strong>Bộ lọc phân quyền truy cập (RBAC):</strong> Cung cấp các hàm kiểm tra phiên làm việc và vai trò người dùng: <code>require_login()</code>, <code>require_admin()</code>, <code>require_staff_or_admin()</code>, ngăn chặn truy cập trái phép vào các trang quản trị.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">4</td>
+            <td><span class="file-name">navbar.php</span></td>
+            <td>
+                <strong>Thanh điều hướng thông minh:</strong> Hiển thị menu phù hợp theo vai trò đăng nhập (Khách / Nhân viên / Quản trị viên). Tích hợp <strong>Badge cảnh báo số lượng sản phẩm sắp hết hàng theo thời gian thực</strong> màu đỏ trên thanh menu.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">5</td>
+            <td><span class="file-name">login.php</span></td>
+            <td>
+                <strong>Trang đăng nhập bảo mật:</strong> Xác thực tài khoản với mật khẩu băm chuẩn <code>password_verify()</code> (Bcrypt). Tích hợp sẵn <strong>3 nút bấm điền tự động tài khoản mẫu</strong> (Admin, Staff, Khách hàng) giúp chấm đồ án chỉ với 1 click.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">6</td>
+            <td><span class="file-name">register.php</span></td>
+            <td>
+                <strong>Trang đăng ký thành viên:</strong> Kiểm tra ràng buộc dữ liệu (Validation) chặt chẽ cả client & server: username không dấu, định dạng email chuẩn, số điện thoại regex 9-12 số, mật khẩu tối thiểu 6 ký tự và xác nhận trùng khớp, chống đăng ký trùng username/email.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">7</td>
+            <td><span class="file-name">logout.php</span></td>
+            <td>
+                <strong>Đăng xuất an toàn:</strong> Hủy toàn bộ biến session, xóa cookie phiên và điều hướng người dùng về trang đăng nhập kèm thông báo.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">8</td>
+            <td><span class="file-name">index.php</span></td>
+            <td>
+                <strong>Trang chủ gian hàng mua sắm:</strong> Giao diện hiện đại cho khách hàng: tìm kiếm sản phẩm theo tên/mã, lọc theo danh mục, hiển thị số lượng tồn kho còn lại hoặc huy hiệu "Hết hàng". Form đặt hàng nhanh sử dụng <strong>PDO Transaction</strong> và khóa dòng <code>SELECT ... FOR UPDATE</code> để chống lỗi bán âm kho khi nhiều người mua cùng lúc.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">9</td>
+            <td><span class="file-name">order_invoice.php</span></td>
+            <td>
+                <strong>In hóa đơn bán lẻ & Quét mã VietQR:</strong> Trang in Bill chuẩn A4/A5 tự động ẩn thanh điều hướng khi bấm nút in (CSS <code>@media print</code>). Tự động tích hợp API VietQR Napas 24/7 để tạo mã QR ngân hàng chứa chính xác số tiền, số tài khoản và mã đơn hàng giúp khách quét thanh toán tức thì.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">10</td>
+            <td><span class="file-name">my_orders.php</span></td>
+            <td>
+                <strong>Lịch sử đơn hàng của khách hàng:</strong> Khách hàng đăng nhập xem lại các đơn hàng cá nhân đã đặt, theo dõi trạng thái giao hàng, mở hóa đơn và quét lại mã QR thanh toán.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">11</td>
+            <td><span class="file-name">admin_dashboard.php</span></td>
+            <td>
+                <strong>Bảng điều khiển quản trị (Dashboard):</strong> Thống kê 4 thẻ KPI: Tổng doanh thu đơn hoàn thành, Lợi nhuận thuần (Doanh thu - Giá vốn), Số đơn chờ duyệt, Số mặt hàng sắp hết. Vẽ <strong>biểu đồ Chart.js doanh thu 7 ngày gần nhất</strong>, Top 5 mặt hàng bán chạy nhất và bảng cảnh báo hàng sắp hết ưu tiên.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">12</td>
+            <td><span class="file-name">inventory.php</span></td>
+            <td>
+                <strong>Quản lý kho hàng toàn diện:</strong> Quản lý danh sách sản phẩm (Mã SP, Tên, Danh mục, Giá vốn, Giá bán, Tồn kho, Ngưỡng cảnh báo). Bộ lọc thông minh cho phép xem nhanh các mặt hàng có tồn kho &le; ngưỡng tối thiểu để chuẩn bị nhập hàng.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">13</td>
+            <td><span class="file-name">suppliers.php</span></td>
+            <td>
+                <strong>Quản lý nhà cung cấp:</strong> CRUD danh bạ đối tác cung ứng (Tên công ty, Người liên hệ, SĐT, Email, Địa chỉ kho) và theo dõi số lần đã nhập hàng từ đối tác.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">14</td>
+            <td><span class="file-name">imports.php</span></td>
+            <td>
+                <strong>Quản lý nhập kho (Stock In):</strong> Tạo phiếu nhập hàng từ nhà cung cấp đối tác. Khi lưu phiếu, hệ thống sử dụng Transaction tự động <strong>cộng dồn số lượng tồn kho</strong> và <strong>cập nhật giá vốn mới</strong> cho sản phẩm.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">15</td>
+            <td><span class="file-name">orders.php</span></td>
+            <td>
+                <strong>Quản lý đơn hàng của shop:</strong> Bộ lọc đơn theo trạng thái (Chờ duyệt, Đang xử lý, Đang giao, Đã hoàn thành, Đã hủy) và trạng thái thanh toán. Xem thông tin khách hàng, cập nhật tiến độ vận chuyển và xuất hóa đơn.
+            </td>
+        </tr>
+        <tr class="even">
+            <td align="center">16</td>
+            <td><span class="file-name">users.php</span></td>
+            <td>
+                <strong>Quản lý tài khoản & phân quyền (Admin Only):</strong> Chỉ Quản trị viên mới được truy cập để thay đổi vai trò (Admin, Staff, User), thêm nhân viên mới hoặc xóa tài khoản.
+            </td>
+        </tr>
+        <tr>
+            <td align="center">17</td>
+            <td><span class="file-name">PROMPT_VA_HUONG_DAN.md</span></td>
+            <td>
+                <strong>Tài liệu kỹ thuật Markdown:</strong> Chứa bộ prompt, hướng dẫn chạy hệ thống trên XAMPP và tài khoản kiểm thử mặc định.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- MỤC 2: BỘ PROMPT -->
+<h2>PHẦN 2: 🧠 BỘ PROMPT CHUẨN KỸ THUẬT CHO ĐỒ ÁN</h2>
+<p>
+    Dưới đây là các Prompt chuyên sâu được thiết kế bài bản để bạn sử dụng nạp cho các mô hình AI (ChatGPT, Claude, Gemini) nhằm mở rộng hệ thống, viết báo cáo luận văn, vẽ sơ đồ UML hoặc chuẩn bị bài thuyết trình:
+</p>
+
+<h3>🎯 Prompt 1: Prompt Master Đặc Tả & Xây Dựng Hệ Thống (Master Architecture Prompt)</h3>
+<div class="prompt-box">
+Bạn là một Kỹ sư phần mềm cao cấp và Chuyên gia giải pháp full-stack PHP/MySQL.
+Hãy thiết kế và xây dựng "Hệ Thống Quản Lý Kho & Đơn Hàng Dành Cho Cửa Hàng Nhỏ" (Inventory & Order Management System) chạy trên môi trường XAMPP (PHP 8.x + MySQL) với các yêu cầu kỹ thuật sau:
+
+1. Phạm vi chức năng cốt lõi (Core Requirements):
+   - Quản lý kho hàng & Xuất-Nhập-Tồn: Báo cáo tồn kho thời gian thực, cảnh báo đỏ khi mặt hàng chạm ngưỡng tối thiểu (min_stock_level), quản lý danh mục, giá vốn và giá bán lẻ.
+   - Quản lý nhà cung cấp (Suppliers): CRUD thông tin đối tác cung ứng, liên kết lịch sử các lần nhập hàng.
+   - Quản lý nhập kho (Stock In / Import Receipts): Tạo phiếu nhập hàng, tự động cộng dồn số lượng vào tồn kho và cập nhật giá vốn mới.
+   - Quản lý đơn hàng & Bán hàng (Order Management & POS): Khách đặt mua online hoặc tạo đơn tại quầy, sử dụng PDO Transaction và khóa dòng (SELECT ... FOR UPDATE) để trừ kho an toàn, tránh race condition khi nhiều người mua cùng lúc.
+   - Quản lý người dùng & Phân quyền (RBAC): Đăng nhập, đăng ký thành viên với validation chặt chẽ (username, email duy nhất, regex SĐT, mật khẩu tối thiểu 6 ký tự băm bằng bcrypt). Phân quyền 3 vai trò: Admin (toàn quyền), Staff (thủ kho / xử lý đơn), User (khách hàng mua sắm).
+   - Thống kê doanh thu & lợi nhuận: Tính tổng doanh thu đơn hoàn thành, lợi nhuận thuần (Doanh thu - Giá vốn), top sản phẩm bán chạy nhất, vẽ biểu đồ trực quan 7 ngày bằng Chart.js.
+
+2. Tính năng cộng điểm (Bonus Features):
+   - Tích hợp thanh toán trực tuyến VietQR chuẩn Napas 24/7: Tự động render mã QR chứa chính xác số tài khoản ngân hàng, số tiền đơn hàng và mã hóa đơn để khách quét ứng dụng ngân hàng thanh toán ngay lập tức.
+   - In hóa đơn bán lẻ chuyên nghiệp (Print Bill / Invoice): Trang in chuẩn định dạng A4/A5, tự động căn chỉnh và ẩn các thanh điều hướng khi in (CSS @media print).
+   - Cảnh báo tồn kho thời gian thực (Real-time alert): Badge thông báo số lượng mặt hàng sắp hết trên thanh điều hướng Navbar và bảng cảnh báo ưu tiên trên Dashboard.
+
+3. Chuẩn mã nguồn:
+   - Sử dụng PHP PDO chuẩn bảo mật, chống SQL Injection (Prepared Statements), chống XSS (htmlspecialchars).
+   - Giao diện hiện đại sử dụng Bootstrap 5.3 + Bootstrap Icons, responsive trên cả máy tính và điện thoại.
+</div>
+
+<h3>🎯 Prompt 2: Prompt Thiết Kế Cơ Sở Dữ Liệu Quan Hệ (Database Design Prompt)</h3>
+<div class="prompt-box">
+Hãy thiết kế cơ sở dữ liệu quan hệ MySQL cho hệ thống quản lý kho & đơn hàng mang tên `inventory_shop` với mã hóa UTF8MB4.
+Các bảng bao gồm:
+1. `users`: id, username, password (bcrypt), fullname, email, phone, role (admin, staff, user), created_at.
+2. `suppliers`: id, name, contact_name, phone, email, address, created_at.
+3. `products`: id, code (unique), name, category, price, cost_price, stock_quantity, min_stock_level, created_at.
+4. `import_receipts`: id, receipt_code, supplier_id, user_id, total_cost, note, created_at (khóa ngoại đến suppliers và users).
+5. `import_details`: id, receipt_id, product_id, quantity, import_price.
+6. `orders`: id, order_code, user_id (nullable), customer_name, customer_phone, customer_address, total_amount, status (Pending, Processing, Shipping, Completed, Cancelled), payment_method, payment_status (Unpaid, Paid), notes, created_at.
+7. `order_details`: id, order_id, product_id, quantity, price.
+Hãy kèm theo các lệnh INSERT dữ liệu mẫu đầy đủ cho tài khoản Admin, Staff, Khách hàng, Nhà cung cấp, Hàng hóa, Phiếu nhập và Đơn hàng mẫu để hệ thống hiển thị biểu đồ và số liệu ngay lập tức.
+</div>
+
+<h3>🎯 Prompt 3: Prompt Viết Báo Cáo Đồ Án Chuẩn 5 Chương (Project Report Prompt)</h3>
+<div class="prompt-box">
+Hãy đóng vai một Giảng viên Hướng dẫn Đồ án Công nghệ Thông tin.
+Hãy viết đề cương chi tiết và nội dung mẫu cho cuốn Báo Cáo Đồ Án: "Hệ Thống Quản Lý Kho & Đơn Hàng Dành Cho Cửa Hàng Nhỏ Bằng PHP & MySQL" theo cấu trúc chuẩn:
+- Chương 1: TỔNG QUAN VỀ ĐỀ TÀI (Lý do chọn đề tài, tính cấp thiết của bài toán quản lý kho hàng, mục tiêu và phạm vi của đề tài).
+- Chương 2: PHÂN TÍCH YÊU CẦU NGHIỆP VỤ (Các yêu cầu chức năng: Quản lý hàng hóa, Nhập kho, Bán hàng, Phân quyền RBAC, Báo cáo doanh thu & lợi nhuận; Các yêu cầu phi chức năng: Bảo mật, tốc độ, tính khả dụng; Sơ đồ Use Case tổng quát).
+- Chương 3: THIẾT KẾ HỆ THỐNG (Mô hình thực thể quan hệ CSDL ERD, thiết kế chi tiết 7 bảng dữ liệu, thiết kế kiến trúc xử lý an toàn giao dịch PDO Transaction).
+- Chương 4: CÀI ĐẶT VÀ KẾT QUẢ THỰC NGHIỆM (Giao diện bảng điều khiển Dashboard có biểu đồ Chart.js, giao diện quản lý xuất-nhập-tồn, chức năng in hóa đơn tích hợp mã thanh toán VietQR Napas).
+- Chương 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN (Đánh giá mức độ hoàn thành so với yêu cầu, hạn chế tồn đọng và hướng mở rộng: quét barcode phần cứng, tích hợp API giao hàng GHTK).
+</div>
+
+<h3>🎯 Prompt 4: Prompt Kịch Bản Thuyết Trình Bảo Vệ Đồ Án (Presentation Defense Prompt)</h3>
+<div class="prompt-box">
+Hãy soạn cho tôi một Kịch bản thuyết trình bảo vệ đồ án (Slide Presentation Script) trong thời gian 5 - 7 phút trước Hội đồng giám khảo chấm điểm đồ án "Hệ Thống Quản Lý Kho & Đơn Hàng":
+1. Lời chào và giới thiệu ngắn gọn lý do chọn đề tài (1 phút).
+2. Trình bày điểm nổi bật của hệ thống (2 phút): Giải quyết bài toán Xuất - Nhập - Tồn, tự động cảnh báo khi tồn kho chạm ngưỡng min_stock_level, tự động tính lợi nhuận thuần (Doanh thu - Giá vốn).
+3. Demo trực tiếp luồng nghiệp vụ mượt mà (3 phút):
+   - Đăng nhập tài khoản Quản trị Admin: Xem Dashboard với biểu đồ Chart.js và các mặt hàng cảnh báo đỏ.
+   - Thao tác Nhập kho: Nhập thêm hàng từ Nhà cung cấp -> Hệ thống tự động cộng dồn tồn kho.
+   - Thao tác Khách hàng mua hàng: Đặt đơn thành công -> Kho tự động trừ -> Mở hóa đơn có mã VietQR động để quét thanh toán.
+4. Kết luận, cảm ơn hội đồng và chuẩn bị sẵn 5 câu hỏi phản biện thường gặp của giảng viên kèm câu trả lời xuất sắc.
+</div>
+
+<!-- MỤC 3: HƯỚNG DẪN KHỞI CHẠY & TÀI KHOẢN MẪU -->
+<h2>PHẦN 3: 🚀 HƯỚNG DẪN KHỞI CHẠY & TÀI KHOẢN KIỂM THỬ</h2>
+
+<div class="alert-box">
+    <p style="margin-bottom: 4pt;"><strong>Bước 1:</strong> Mở ứng dụng <strong>XAMPP Control Panel</strong>, bấm <strong>Start</strong> cả 2 dịch vụ: <strong>Apache</strong> và <strong>MySQL</strong>.</p>
+    <p style="margin-bottom: 4pt;"><strong>Bước 2:</strong> Vào trình duyệt truy cập: <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a>, chọn tab <strong>Import</strong> và tải lên file <code>database.sql</code>.</p>
+    <p style="margin-bottom: 0;"><strong>Bước 3:</strong> Mở trang web tại địa chỉ: <a href="http://localhost/doan5">http://localhost/doan5</a> để trải nghiệm hệ thống.</p>
+</div>
+
+<h3>Bảng Tài Khoản Kiểm Thử Mẫu (Đã Tích Hợp Nút Bấm 1-Click Tại Login):</h3>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 25%;">Vai Trò</th>
+            <th style="width: 20%;">Tên Đăng Nhập</th>
+            <th style="width: 20%;">Mật Khẩu</th>
+            <th style="width: 35%;">Phạm Vi Quyền Hạn</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Quản Trị Viên (Admin)</strong></td>
+            <td><code style="color: #c53030; font-weight: bold;">admin</code></td>
+            <td><code>admin123</code></td>
+            <td>Toàn quyền: Xem Dashboard doanh thu & lợi nhuận, biểu đồ Chart.js, quản lý kho, nhập hàng, đơn hàng, phân quyền người dùng (<code>users.php</code>).</td>
+        </tr>
+        <tr class="even">
+            <td><strong>Nhân Viên Kho (Staff)</strong></td>
+            <td><code style="color: #d69e2e; font-weight: bold;">staff</code></td>
+            <td><code>staff123</code></td>
+            <td>Quản lý sản phẩm tồn kho, tạo phiếu nhập kho, quản lý nhà cung cấp, duyệt và cập nhật trạng thái đơn hàng, in hóa đơn.</td>
+        </tr>
+        <tr>
+            <td><strong>Khách Hàng (User)</strong></td>
+            <td><code style="color: #3182ce; font-weight: bold;">khachhang</code></td>
+            <td><code>123456</code></td>
+            <td>Xem sản phẩm, mua sắm online, xem lịch sử đơn hàng cá nhân (<code>my_orders.php</code>), xem hóa đơn và quét mã VietQR.</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="footer-note">
+    <p>Tài liệu được tổng hợp tự động và lưu trữ tại thư mục đồ án: <strong>C:\xampp\htdocs\doan5\DANH_SACH_VA_PROMPT_DO_AN.doc</strong></p>
+    <p>© 2026 Hệ Thống Quản Lý Kho & Đơn Hàng Dành Cho Cửa Hàng Nhỏ</p>
+</div>
+
+</body>
+</html>
